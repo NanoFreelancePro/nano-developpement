@@ -16,17 +16,17 @@
         </a>
         <nav>
             <div class="menu">
-                <a href="../../index.html"><p class="menu__btn"><i class="fas fa-home"></i></p></a>
-                <a href="#"><p class="menu__btn">Ressources</p></a>
-                <a href="#"><p class="menu__btn">Projets</p></a>
-                <a href="#"><p class="menu__btn">Contact</p></a>
+                <a href="../../index.html" class="menu__btn"><p><i class="fas fa-home"></i></p></a>
+                <a href="#" class="menu__btn"><p>Ressources</p></a>
+                <a href="#" class="menu__btn"><p>Projets</p></a>
+                <a href="./public/html/contact.html" class="menu__btn"><p>Contact</p></a>
             </div>
         </nav>
     </header>
     <section class="my">
-        <div class="my__left">
-            <img class="my__left--pic" src="../img/nano-no-bg.png" alt="Photo Alejandro FERNANDEZ">
-        </div>
+        <!-- <div class="my__left"> -->
+            <img class="my__left" src="../img/pexels-ylanite-koppens-1809342.jpg" alt="Photo Alejandro FERNANDEZ">
+        <!-- </div> -->
         <div class="my__right">
             <h1 class="my__right--firstname">Alejandro</h1>
             <h2 class="my__right--lastname">FERNANDEZ</h2>
@@ -38,16 +38,20 @@
         </div> -->
     </section>
     <div class="contact">
-        <div class="contact__link">
-            <div class="contact__logo"><i class="fas fa-phone-square"></i></div>
-            <h4 class="contact__description">TÉLÉPHONE</h4>
-            <p class="contact__info">+336 09 36 38 46</p>
-        </div>
-        <div class="contact__link">
-            <div class="contact__logo"><i class="fas fa-at"></i></div>
-            <h4 class="contact__description">EMAIL</h4>
-            <p class="contact__info">alejandro.f.nano@gmail.com</p>
-        </div>
+        <a href="tel:+33609363846" class="contact__link">
+            <div>
+                <div class="contact__logo"><i class="fas fa-phone-square"></i></div>
+                <h4 class="contact__description">TÉLÉPHONE</h4>
+                <p class="contact__info">+336 09 36 38 46</p>
+            </div>
+        </a>
+        <a href="mailto:alejandro.f.nano@gmail.com" target="blank" class="contact__link">
+            <div>
+                <div class="contact__logo"><i class="fas fa-at"></i></div>
+                <h4 class="contact__description">EMAIL</h4>
+                <p class="contact__info">alejandro.f.nano@gmail.com</p>
+            </div>
+        </a>
         <div class="contact__link">
             <div class="contact__logo"><i class="fab fa-linkedin"></i></div>
             <h4 class="contact__description">LinkedIn</h4>
